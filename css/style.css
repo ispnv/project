@@ -63,12 +63,8 @@ clear: both;
   top: 7px;
   left: 0px;
   
-  background-image: url('../img/check.png');
-  -webkit-background-size: contain;
-  background-size: contain;
+  background-image: url('../img/check.svg');
   background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
 }
 
 .main-header-product-photo {
@@ -341,7 +337,7 @@ margin: 0;
 }
 
 .price-item {
-  width: 27%;
+  width: 300px;
   min-height: 100px;
   margin:  0 40px 0 0;
   padding: 0 0 10px 0;
@@ -392,7 +388,7 @@ margin: 0;
   display: block;
   margin:  0 auto;
   padding: 5px 10px;
-  width: 90%;
+  width: 260px;
   background-color: #fff;
   border: 1px solid #fff;
   border-radius: 5px;
@@ -417,6 +413,8 @@ margin: 0;
 .main-footer {
   width: 100%;
   background-color: #445161;
+  padding: 50px;
+  box-sizing: border-box;
 }
 
 .footer-title {
@@ -428,7 +426,7 @@ margin: 0;
   font-size: 35px;
   font-weight: 300;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
-  padding-top: 25px;
+  padding: 0;
 }
 
 .footer-wrapper {
@@ -484,7 +482,7 @@ margin: 0;
    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
    border: none;
    background-color: #fff;
-   margin-bottom: 50px;
+   margin: 0 auto;
 }
 
 .footer-form-submit:hover {
@@ -504,14 +502,17 @@ margin: 0;
   line-height: 25px;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
   display: block;
-  margin: 0 0 5px 0;
+  margin: 0 0 5px 20px;
   box-sizing: border-box;
   position: relative;
+  padding: 0;
 }
 
 .footer-contacts-list-item {
   position: relative;
-  padding-bottom: 10px;
+  padding: 0 0 0 20px;
+  box-sizing: border-box;
+  margin: 0 0 10px 0;
 }
 
 .footer-contacts-list-item::before {
@@ -522,7 +523,7 @@ margin: 0;
   box-sizing: border-box;
   position: absolute;
   top: 5px;
-  left: -25px;
+  left: 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -531,19 +532,19 @@ margin: 0;
 }
 
 .footer-contacts-list-item:nth-child(1)::before {
-	background-image: url('../img/skype.png');
+	background-image: url('../img/skype.svg');
 }
 
 .footer-contacts-list-item:nth-child(2)::before {
-	background-image: url('../img/icq.png');
+	background-image: url('../img/isq.svg');
 }
 
 .footer-contacts-list-item:nth-child(3)::before {
-	background-image: url('../img/mail.png');
+	background-image: url('../img/mail.svg');
 }
 
 .footer-contacts-list-item:nth-child(4)::before {
-	background-image: url('../img/phone.png');	
+	background-image: url('../img/phone.svg');	
 }
 
 .footer-contacts-links {
@@ -556,9 +557,22 @@ margin: 0;
 	text-decoration: none;
 }
 
+.footer-contacts-links-item:hover {
+	color: #ccc;
+}
+
 .fab {
 	font-size: 40px;
 	color: #fff;
+}
+
+.copyright-txt {
+	width: 1280px;
+	margin: 5px auto;
+	background-color: #fff;
+	color: #aaa;
+	text-align: center;
+	font-size: 14px;
 }
 
 
